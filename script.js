@@ -66,6 +66,13 @@ input.addEventListener('keypress', function(e){
 })
 
 
+// adding footer
+
+var footer = document.createElement('footer');
+footer.innerHTML = "<p>&copy; 2018 Mehathab Shaik</p>"
+//console.log(body.children);
+body.insertBefore(footer, body.children[2]);
+
 
 //functions
 
