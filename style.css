@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Boogaloo|Great+Vibes|Yellowtail');
+/*
+1. Heading
+2. Main
+3. span
+4. li - checked and unchecked*/
+body{
+	background: #093028;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.heading {
+	width: 600px;
+	/*background-color: gray;*/
+	color: #D49B6A;
+	text-align: center;
+	margin:40px auto;
+	padding: 0px;
+	border-bottom: 1px solid white;
+	/*border-left: 1px solid white;*/
+	/*border-right: 1px solid #03e00c;*/
+	/*border-top: 1px solid #03e00c;*/
+	border-radius: 4px;
+	font-size: 100px;
+	font-family: 'Great Vibes', cursive;
+	/*font-family: 'Yellowtail', cursive;*/
+}
+
+.main{
+	background-color: #ffffff70;
+	border-radius: 3px;
+
+	margin:20px auto;
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.inputDiv{
+	background-color: white;
+	margin-top:20px; 
+	margin-bottom: 60px;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	align-items: center;
+	border-radius: 4px;
+}
+
+#input{
+	height: 40px;
+	width: 400px;
+	border: none;
+	padding: 20px;
+	line-height: 40px;
+	font-size: 25px;
+	border-radius: 10px;
+	font-family: 'Boogaloo', cursive;
+	outline: none;
+
+
+}
+
+#addButton {
+	height: 80px;
+	width: 80px;
+	margin:10px;
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+	border-bottom: 5px solid red;
+	border-left: 2px solid red;
+	border-right: 2px solid red;
+	border-top: 2px solid red;
+	
+	font-size: 18px;
+	outline: none;
+
+	
+}
+
+#addButton:active{
+	transform: scale(0.9);
+	position: relative;
+	top: 5px;
+	border-bottom: 3px solid red;
+	/*border-left: 5px solid red;*/
+
+}
+
+.listDiv{
+	align-self: flex-start;
+	background-color: white;
+	width: 0px;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+
+}
+
+.unChecked{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 24px;
+	/*overflow: hidden;*/
+	flex-wrap: wrap;
+	height: 50px;
+	width: 530px;
+	line-height: 50px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	color: #003133;
+	font-family: 'Boogaloo', cursive;
+
+
+}
+.unChecked:nth-child(odd){
+	background-color: #f4f4f4;
+}
+
+.checked {
+	text-decoration: line-through;
+}
+
+.delete{
+	background-color: red;
+	color: white;
+	margin: 5px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	border-radius: 50%;
+	line-height: 30px;
+	font-size: 15px;
+	/*display: none;*/
+
+}
+.deleteEmpower{
+	text-decoration: none;
+}
+
+li>input {
+	width: 25px;
+	height: 25px;
+}
+
